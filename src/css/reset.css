@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -40,4 +46,10 @@ img {
 
 body {
   background-color: antiquewhite;
+}
+
+.container {
+  text-transform: uppercase;
+  color: #bb7b10;
+  letter-spacing: 0.04em;
 }
